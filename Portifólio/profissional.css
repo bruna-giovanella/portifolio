@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F3F3;
+    color: black;
+    font-family: Montserrat;
+}
+
+html {
+    font-family: Montserrat, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #5A5A5A;
+}
+
+a:visited {
+    color: #5A5A5A;
+}
+
+a:hover {
+    background-image: linear-gradient(to left,#F3F3F3, #EAE7E7);
+    padding: 1rem;
+    border-radius: 5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #5A5A5A;
+    padding: 1rem;
+    background-color: #F3F3F3;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    width: 37.7%;
+    height: 100vh;
+    min-width: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.hero-conteudo h1 {
+    font-size: 2rem;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.espacamento-hero-imagem {
+    position: relative;
+    background-color: #000;
+}
+
+.hero-imagens-container {
+    border-top-right-radius: 5rem;
+    position: absolute;
+    max-width: 52.9rem;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    mask-image: linear-gradient(to right, transparent, black); /* Aplica uma máscara de gradiente para fazer a imagem se dissolver */
+}
+
+
+
+
+
+.container-jovem-aprendiz {
+    background-image: linear-gradient(to left,#F3F3F3, #EAE7E7);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.container-jovem-aprendiz-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-right: 10rem;
+    text-align: justify;
+}
+
+.container-jovem-aprendiz-conteudo h2{
+    text-align: center;
+    align-items: center;
+}
+
+.container-jovem-aprendiz-img {
+    max-width: 100%;
+}
+
+.container-jovem-aprendiz-img > img{
+    width: 25rem;
+    margin-right: 5rem;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    margin-left: 5rem;
+    mask-image: linear-gradient(to right, transparent, #EAE7E7, #EAE7E7); /* Aplica uma máscara de gradiente para fazer a imagem se dissolver */
+
+}
+
+
+
+
+
+.container-assistente {
+    background-image: linear-gradient(to left,#EAE7E7, #F3F3F3);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.container-assistente-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 10rem;
+    text-align: justify;
+}
+
+.container-assistente-conteudo h2{
+    text-align: center;
+    align-items: center;
+}
+
+.container-assistente-img {
+    max-width: 100%;
+}
+
+.container-assistente-img > img{
+    width: 25rem;
+    margin-right: 5rem;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    margin-left: 5rem;
+    mask-image: linear-gradient(to left, transparent, #EAE7E7, #EAE7E7); /* Aplica uma máscara de gradiente para fazer a imagem se dissolver */
+
+}
+
+
+
+
+
+footer {
+    padding-top: 3rem;
+    text-align: center;
+    background-image: linear-gradient(to left,#F3F3F3, #EAE7E7);
+}
+
+
+
+
+
+/* barra de rolagem */
+::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #F3F3F3;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #494949;
+    border-radius: 3rem; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover { 
+    background: #202020;
+  }
+
+  ::-webkit-scrollbar:horizontal {
+    height: 0.5rem; 
+}
+
+::-webkit-scrollbar-track:horizontal {
+    background-color: #F3F3F3;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #494949; 
+    border-radius: 3rem; 
+}
+
+::-webkit-scrollbar-thumb:hover:horizontal { 
+    background: #202020;
+}
